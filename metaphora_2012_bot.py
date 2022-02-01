@@ -1,7 +1,7 @@
 from time import sleep
-
+from settings import *
 import telebot
-bot = telebot.TeleBot()
+bot = telebot.TeleBot(telegram_seckey)
 chat_id = 1972421843
 user_id = 1972421843
 @bot.message_handler(content_types=['text'])
