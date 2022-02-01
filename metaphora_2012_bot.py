@@ -1,7 +1,7 @@
 from time import sleep
 
 import telebot
-bot = telebot.TeleBot('2059874864:AAFsVUVv9v2RVEhFOZvsstdmOXl7h2O8T6Q')
+bot = telebot.TeleBot()
 chat_id = 1972421843
 user_id = 1972421843
 @bot.message_handler(content_types=['text'])
